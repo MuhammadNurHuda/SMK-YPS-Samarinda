@@ -2,7 +2,7 @@
 /**
 * 
 */
-class artikel extends CI_Controller
+class Artikel extends CI_Controller
 {
 	
 	function __construct()

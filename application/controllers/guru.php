@@ -2,7 +2,7 @@
 /**
 * 
 */
-class guru extends CI_Controller
+class Guru extends CI_Controller
 {
 	
 	function __construct()

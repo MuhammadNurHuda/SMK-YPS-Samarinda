@@ -2,7 +2,7 @@
 /**
  * 
  */
- class alumni extends CI_Controller
+ class Alumni extends CI_Controller
  {
  	
  	function __construct()

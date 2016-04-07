@@ -2,7 +2,7 @@
 /**
 * 
 */
-class operator extends CI_Controller
+class Operator extends CI_Controller
 {
 	
 	function __construct()

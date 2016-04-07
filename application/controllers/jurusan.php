@@ -2,7 +2,7 @@
 /**
 * 
 */
-class jurusan extends CI_Controller
+class Jurusan extends CI_Controller
 {
 	
 	function __construct()

@@ -2,7 +2,7 @@
 /**
 * 
 */
-class galeri extends CI_Controller
+class Galeri extends CI_Controller
 {
 	
 	function __construct()

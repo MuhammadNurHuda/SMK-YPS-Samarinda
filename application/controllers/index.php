@@ -1,5 +1,5 @@
 <?php 
-class index extends CI_Controller
+class Index extends CI_Controller
 {
 	
 	function __construct()

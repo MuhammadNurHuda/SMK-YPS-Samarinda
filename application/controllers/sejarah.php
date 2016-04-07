@@ -2,7 +2,7 @@
 /**
 * 
 */
-class sejarah extends CI_Controller
+class Sejarah extends CI_Controller
 {
 	
 	function __construct()

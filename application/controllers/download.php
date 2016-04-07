@@ -2,7 +2,7 @@
 /**
 * 
 */
-class download extends CI_Controller
+class Download extends CI_Controller
 {
 	
 	function __construct()

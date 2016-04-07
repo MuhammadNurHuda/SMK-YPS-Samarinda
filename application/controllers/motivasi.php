@@ -2,7 +2,7 @@
 /**
 * 
 */
-class motivasi extends CI_Controller
+class Motivasi extends CI_Controller
 {
 	
 	function __construct()

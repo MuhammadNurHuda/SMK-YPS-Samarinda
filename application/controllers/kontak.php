@@ -2,7 +2,7 @@
 /**
 * 
 */
-class kontak extends CI_Controller{
+class Kontak extends CI_Controller{
 	
 	function __construct()
 	{

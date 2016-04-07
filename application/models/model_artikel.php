@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_artikel extends CI_Model
+class Model_artikel extends CI_Model
 {
 	function limit(){
 		return $this->db->query('select *from tb_artikel ORDER BY artikel_id DESC limit 4');

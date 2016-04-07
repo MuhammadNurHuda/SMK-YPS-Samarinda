@@ -2,7 +2,7 @@
 /**
 * 
 */
-class slide extends CI_Controller
+class Slide extends CI_Controller
 {
 	
 	function __construct()

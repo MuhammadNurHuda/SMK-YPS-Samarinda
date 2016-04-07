@@ -2,7 +2,7 @@
 /**
 * 
 */
-class organisasi extends CI_Controller
+class Organisasi extends CI_Controller
 {
 	
 	function __construct()
