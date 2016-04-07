@@ -8,6 +8,11 @@ class Model_artikel extends CI_Model
 		return $this->db->query('select *from tb_artikel ORDER BY artikel_id DESC limit 4');
 	}
 
+	function cari($field) {
+		$query = "SELECT *FROM tb_artikel where artikel_nama like '%$field%'";
+		return $this -> db -> query($query);
+	}
+
 	function lihatdata()
 	{
 		return $this->db->get_where('tb_artikel');

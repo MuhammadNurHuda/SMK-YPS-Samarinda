@@ -12,15 +12,7 @@
  </div>
  </div><br>
 <div class="container">
-	<div class="row">
-	<div class="col-md-3">
-	<?php echo form_open('artikel/cari_artikel'); ?>
-	<input type="text" class="form-control" name="keyword" placeholder="Cari Artikel">
-	</div>
-	<div class="col-md-2">
-	<button type="submit" value="Cari" class="glyphicon glyphicon-search btn btn-success"></button>
-	</div>
-	</div>
+	<?php echo $this -> session -> flashdata('msg'); ?>
 </div><br>
 <table>
  	<?php 
@@ -44,7 +36,7 @@
 </table>
 	<div class="container">
 	<div class="col-md-12">
-		<div class="pull-right"><?php echo $paging ?></div>
+		
 	</div>
 	</div>
 </body>

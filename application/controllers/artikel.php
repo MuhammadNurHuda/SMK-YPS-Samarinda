@@ -11,6 +11,21 @@ class Artikel extends CI_Controller
 		$this->load->model(array('model_artikel','model_alamat'));
 	}
 
+	function cari_artikel()
+	{
+		$field = $this->input->post('keyword');
+		$data['alamat']=$this->model_alamat->lihatdata();
+		$data['artikel']=$this->model_artikel->cari($field);
+		if ($data['artikel']->num_rows() < 1) {
+			$this->session->set_flashdata('msg','Kata pencarian "'.$field.'" tidak ditemukan');
+		}
+		else
+		{	
+			$this->session->set_flashdata('msg','');
+		}
+		$this->template->load('template(1)','front/lihat_artikel_cari',$data);
+	}
+
 	function index()
 	{
 		$this->load->library('pagination');
