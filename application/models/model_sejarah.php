@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_sejarah extends CI_Model
+class Model_sejarah extends CI_Model
 {
 
 	function lihatdata()

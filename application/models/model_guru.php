@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_guru extends CI_Model
+class Model_guru extends CI_Model
 {
 	
 	function lihatdata()

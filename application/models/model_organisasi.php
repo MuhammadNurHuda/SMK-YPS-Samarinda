@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_organisasi extends CI_Model
+class Model_organisasi extends CI_Model
 {
 	
 	function lihatdata()

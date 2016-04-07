@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_motivasi extends CI_Model
+class Model_motivasi extends CI_Model
 {
 	
 	function lihatdata()

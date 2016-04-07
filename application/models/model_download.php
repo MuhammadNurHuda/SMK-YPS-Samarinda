@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_download extends CI_Model
+class Model_download extends CI_Model
 {
 	
 	function lihatdata()

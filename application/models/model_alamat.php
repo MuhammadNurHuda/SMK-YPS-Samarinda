@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_alamat extends CI_Model
+class Model_alamat extends CI_Model
 {
 	
 	function lihatdata()

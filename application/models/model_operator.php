@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_operator extends CI_Model
+class Model_operator extends CI_Model
 {
 	
 	function login($username,$password)

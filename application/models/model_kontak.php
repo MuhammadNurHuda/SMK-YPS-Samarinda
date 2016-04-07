@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_kontak extends CI_Model
+class Model_kontak extends CI_Model
 {
 	function limit(){
 		return $this->db->get('tb_kontak', 4);

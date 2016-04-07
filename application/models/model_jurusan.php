@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_jurusan extends CI_Model
+class Model_jurusan extends CI_Model
 {
 	function lihatdata()
 	{

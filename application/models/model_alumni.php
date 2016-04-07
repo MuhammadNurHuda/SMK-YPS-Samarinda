@@ -1,5 +1,5 @@
 <?php 
-class model_alumni extends CI_Model
+class Model_alumni extends CI_Model
 {
 	
 	function lihat_data()

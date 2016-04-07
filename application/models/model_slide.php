@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_slide extends CI_Model
+class Model_slide extends CI_Model
 {
 	
 	function lihatdata()

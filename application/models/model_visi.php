@@ -2,13 +2,8 @@
 /**
 * 
 */
-class model_visi extends CI_Model
+class Model_visi extends CI_Model
 {
-	
-	/*function __construct()
-	{
-		
-	}*/
 
 	function lihatdata()
 	{

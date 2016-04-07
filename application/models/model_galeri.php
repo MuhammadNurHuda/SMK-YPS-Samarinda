@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_galeri extends CI_Model
+class Model_galeri extends CI_Model
 {
 	
 	function limit(){

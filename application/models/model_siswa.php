@@ -2,7 +2,7 @@
 /**
 * 
 */
-class model_siswa extends CI_Model
+class Model_siswa extends CI_Model
 {
 	
 	function lihatdata()
