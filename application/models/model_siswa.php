@@ -35,7 +35,7 @@ class Model_siswa extends CI_Model
 
 	function cari($jurusan,$kelas)
 	{
-		$query = "Select *FROM tb_siswa where jurusan='$jurusan' and kelas_siswa='$kelas'";
+		$query = "Select *FROM tb_siswa where jurusan like '%$jurusan%' and kelas_siswa like '%$kelas%'";
 		return $this->db->query($query);
 	}
 }

@@ -10,10 +10,7 @@
     margin-top: 15px;
     margin-bottom: 20px;
 	}
-	.p {
-    line-height: 1.6em;
-    text-indent: 50px;
-	}
+
 	</style>	
 <body>
 <div>
@@ -26,3 +23,4 @@
 </div>
 </body>
 </html>
+

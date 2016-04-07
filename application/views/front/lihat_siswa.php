@@ -21,10 +21,7 @@
 	</select>
 	</div>
 	<div class="col-sm-3">
-	<select name="jurusan" class="form-control">
-		<option>Administrasi Perkantoran</option>
-		<option>Teknik Komputer & Jaringan</option>
-	</select>
+	<input type="text" name="jurusan" class="form-control">
 	</div>
 	<div class="col-md-2">
 	<button type="submit" value="Cari" class="glyphicon glyphicon-search btn btn-success"></button>

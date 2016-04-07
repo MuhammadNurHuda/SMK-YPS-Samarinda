@@ -2,7 +2,7 @@
 /**
 * 
 */
-class visi_misi extends CI_Controller
+class Visi_misi extends CI_Controller
 {
 	
 	function __construct()

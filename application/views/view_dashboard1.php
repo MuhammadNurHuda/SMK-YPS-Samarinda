@@ -108,17 +108,16 @@ border: none;
       <div class="vert-text">
         <div class="container">
             <h2>Profil Jurusan</h2><hr>
-                  <div class="row">
                     <ul class="thumbnails">
                     <div class="col-md-12">
+                      <div class="col-md-6">
                     <?php foreach ($jurusan -> result() as $j) { ?>
-                    <a href="<?php echo site_url('jurusan/index'); ?>"><img src="<?php echo base_url('uploads/'.$j->file_jurusan);?>" style="width: 200px;height: 200px;margin-right: 150px;margin-left: 150px;" class="img-circle"></a>
+                    <p align="center"><a href="<?php echo site_url('jurusan/index'); ?>"><img src="<?php echo base_url('uploads/'.$j->file_jurusan);?>" style="width: 200px;height: 200px;" class="img-circle"></a><br>
+                    <a href="<?php echo site_url('jurusan/index'); ?>" style="color: white;font-size: 20"><?php echo $j->nama_jurusan;?></a></p>
+                    </div>
                     <?php } ?>
-                    <?php foreach ($jurusan -> result() as $j) { ?>
-                    <a href="<?php echo site_url('jurusan/index'); ?>" style="margin-right: 120px;margin-left: 140px;color: white;font-size: 20"><?php echo $j->nama_jurusan;?></a>
-                    <?php } ?>
-                    </div><br>
-            </div></div>
+                    </div>
+            </div>
         </div>
         </div>   
       </div>
