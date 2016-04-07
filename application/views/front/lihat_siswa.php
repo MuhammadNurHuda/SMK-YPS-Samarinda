@@ -21,7 +21,7 @@
 	</select>
 	</div>
 	<div class="col-sm-3">
-	<input type="text" name="jurusan" class="form-control">
+	<input type="text" name="jurusan" placeholder="Jurusan" class="form-control">
 	</div>
 	<div class="col-md-2">
 	<button type="submit" value="Cari" class="glyphicon glyphicon-search btn btn-success"></button>

@@ -19,6 +19,7 @@
 	</div>
 	<div class="col-md-2">
 	<button type="submit" value="Cari" class="glyphicon glyphicon-search btn btn-success"></button>
+	<?php echo form_close(); ?>
 	</div>
 	</div>
 </div><br>
