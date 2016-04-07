@@ -25,7 +25,9 @@ class Model_sejarah extends CI_Model
 	function delete($id)
 	{
 		$this->db->where('id_sejarah',$id);
-		$this->db->delete('tb_sejarah');
+		if ($this->db->delete('tb_sejarah')) {
+			$this -> session -> set_flashdata('msg','<div class="alert alert-success text-center">Data berhasil dihapus</div>');
+		}
 	}
 }
 

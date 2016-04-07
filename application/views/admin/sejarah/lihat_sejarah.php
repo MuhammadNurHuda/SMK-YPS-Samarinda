@@ -9,6 +9,7 @@ echo anchor('admin/post_sejarah','Tambah Sejarah',array('class'=>'btn btn-primar
  ?>
  <p></p>
  <table class="table table-bordered">
+ <?php echo $this -> session -> flashdata('msg'); ?>
  	<th>No</th>
  	<th>Judul Sejarah</th>
  	<th>Isi Sejarah</th>

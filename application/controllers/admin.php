@@ -749,7 +749,9 @@ class Admin extends CI_Controller
 		$data=array('judul_sejarah'=>$judul_sejarah,
 					'isi_sejarah'=>$isi_sejarah,
 					'file_sejarah'=>$hasil['file_name']);
-		$this->db->insert('tb_sejarah',$data);
+		if ($this->db->insert('tb_sejarah',$data)) {
+			$this -> session -> set_flashdata('msg','<div class="alert alert-success text-center">Data berhasil ditambah</div>');
+		}
 		redirect('admin/sejarah');
 		}
 	}
@@ -778,7 +780,9 @@ class Admin extends CI_Controller
 							   'file_sejarah'=>$hasil['file_name']);
 		}
 		$this->db->where('id_sejarah',$id);
-		$this->db->update('tb_sejarah',$data);
+		if ($this->db->update('tb_sejarah',$data)) {
+			$this -> session -> set_flashdata('msg','<div class="alert alert-success text-center">Data berhasil ubah</div>');
+		}
 		redirect('admin/sejarah');
 		}
 		else
