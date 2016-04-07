@@ -85,7 +85,7 @@ border: none;
                 <div class="well well-lg">
                     <img class="img-responsive img-rounded" style="width:200px;height:160px" src="<?php echo base_url('uploads/'.$a->nama_file);?>"><hr>
                     <p><?php echo substr($a->artikel_content, 0, 100)." ....";?></p>
-                    <?php echo anchor('front/artikel_detail/'.$a->artikel_id,'Selengkapnya',array('class'=>'btn btn-success hvr-icon-forward')) ?><p></p>
+                    <?php echo anchor('artikel/artikel_detail/'.$a->artikel_id,'Selengkapnya',array('class'=>'btn btn-success hvr-icon-forward')) ?><p></p>
                 </div>
             </div>
             <?php } ?>
