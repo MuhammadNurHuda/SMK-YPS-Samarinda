@@ -112,10 +112,10 @@ border: none;
                     <ul class="thumbnails">
                     <div class="col-md-12">
                     <?php foreach ($jurusan -> result() as $j) { ?>
-                    <a href="jurusan"><img src="<?php echo base_url('uploads/'.$j->file_jurusan);?>" style="width: 200px;height: 200px;margin-right: 150px;margin-left: 150px;" class="img-circle"></a>
+                    <a href="<?php echo site_url('jurusan/index'); ?>"><img src="<?php echo base_url('uploads/'.$j->file_jurusan);?>" style="width: 200px;height: 200px;margin-right: 150px;margin-left: 150px;" class="img-circle"></a>
                     <?php } ?>
                     <?php foreach ($jurusan -> result() as $j) { ?>
-                    <a href="jurusan" style="margin-right: 120px;margin-left: 140px;color: white;font-size: 20"><?php echo $j->nama_jurusan;?></a>
+                    <a href="<?php echo site_url('jurusan/index'); ?>" style="margin-right: 120px;margin-left: 140px;color: white;font-size: 20"><?php echo $j->nama_jurusan;?></a>
                     <?php } ?>
                     </div><br>
             </div></div>
