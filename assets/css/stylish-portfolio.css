@@ -44,7 +44,7 @@
 /* Intro */
 
 .intro {
-  padding: 50px 0;
+  padding: 6px 0;
   background: white;
   color: black;
 }
@@ -63,7 +63,7 @@
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../css/img/ab.jpg) no-repeat center center fixed; 
+  background: url(../css/img/ab.jpg) repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -126,7 +126,7 @@
   <footer class="footer">
   <div class="container-fluid">     
           <div class="col-md-4">
-            <p align="center" style="color: white;">Supported by <a href="http://betech.academy/">Betech Academy..</a></p>
+            <p align="center" style="color: white;padding-top: 9px;">Supported by <a href="http://betech.academy/">Betech Academy..</a></p>
           </div>
            <div class="col-md-4 col-md-offset-4">
                <p style="color: white">Connect wiht us :

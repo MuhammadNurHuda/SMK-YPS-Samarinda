@@ -46,13 +46,14 @@ border: none;
 </style>
 
 <body>
+<div class="container">
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
         <?php foreach ($slide -> result() as $s) { ?>
         <?php } ?>
         <div class="carousel-inner">
             <?php foreach ($slide -> result() as $s) { ?>
             <div class="item">
-            <img id="<?php echo $s->id_gambar; ?>" src="<?php echo base_url('uploads/'.$s->nama_file);?>" class="img-responsive" style="width: 1360px;height:700px;"> 
+            <img id="<?php echo $s->id_gambar; ?>" src="<?php echo base_url('uploads/'.$s->nama_file);?>" class="img-responsive" style="width: 1360px;height:442px;"> 
             </div>
             <?php } ?>
         </div>
@@ -63,7 +64,7 @@ border: none;
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
 </div>
-
+</div>
     <div id="about" class="intro">
       <div class="container">
         <div class="row-fluid">
